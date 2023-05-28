@@ -1,0 +1,110 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: -50px;
+    padding: 0;
+    text-align: center;
+    font-family: 'Spinnaker', sans-serif;
+}
+
+img {
+    width: 100px;
+}
+.hero{
+    height: 400px;
+    background-image: url("/images/Shekou.jpeg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 250px;
+    
+}
+h1{
+    padding: 10px;
+    color: #E0E0DE;
+    background: #19476B;
+    border-radius: 10px;
+}
+h2{
+    padding: 10px;
+    color: #E0E0DE;
+    background: #97AECD;
+    border-radius: 10px;
+}
+.activities{
+    margin: -50px;
+    background: #E0E0DE;
+    height: 600px;
+}
+.top3{
+    margin-left: 200px;
+    margin-right: 200px;
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+.round-pic{
+    height:150px;
+    width: 150px;
+    border-radius: 50%;
+    
+}
+.header{
+    color: black;
+    width: 250px;
+    font-family: 'Spinnaker', sans-serif;
+    font:bold;
+    font-size: 16px;
+}
+.text{
+    color: #3E4C4D;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 230px;
+    font-size: 14px;
+    
+}
+h3{
+    font-size: 20px;
+    color: black;
+}
+.round-pic:hover{
+    border: 4px solid #19476B;
+}
+.guide{
+    height: 600px;
+    background:  #B18D68;
+}
+.card{
+    display: flex;
+    margin: 0px 400px;
+    padding: 80px 30px;
+    justify-content: space-between;
+    background: #E0E0DE;
+    border-radius: 20px;
+    border-bottom: 14px solid #97AECD;
+    
+}
+#guideimg{
+    width:160px;
+    height: 140px;
+    padding-right:50px;
+}
+.section{
+    font-family: 'Cormorant Garamond', serif;
+    font:bold;
+    font-size: 28px;
+    
+}
+.copywrite{
+    margin-top:100px;
+}
